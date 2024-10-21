@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+.menu {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
