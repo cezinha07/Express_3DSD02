@@ -10,6 +10,14 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + "/src/views/index.html");
 });
 
+app.get("/contato", function (req, res) {
+  res.sendFile(__dirname + "/src/views/index.html");
+});
+
+app.get("/logar", function (req, res) {
+  res.sendFile(__dirname + "/src/views/index.html");
+});
+
 app.get("/sobre", function (req, res) {
   res.sendFile(__dirname + "/src/views/about.html");
 });
